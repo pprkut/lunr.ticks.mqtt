@@ -436,7 +436,7 @@ class MqttClientWriteToSocketTest extends MqttClientTestCase
             'startTimestamp' => 1734352683.3516,
             'endTimestamp'   => 1734352683.3516,
             'executionTime'  => 0.0,
-            'data'           => '31' . $string . '30...',
+            'requestBody'    => '31' . $string . '30...',
             'requestHeaders' => '{"qualityOfService":0,"messageId":null,"topic":null,"acknowledgedQualityOfServices":[],"type":"UNKNOWN"}',
         ];
 
@@ -540,7 +540,7 @@ class MqttClientWriteToSocketTest extends MqttClientTestCase
             'startTimestamp' => 1734352683.3516,
             'endTimestamp'   => 1734352683.3516,
             'executionTime'  => 0.0,
-            'data'           => '31' . $string . '3025e7a4b7d43119',
+            'requestBody'    => '31' . $string . '3025e7a4b7d43119',
             'requestHeaders' => '{"qualityOfService":0,"messageId":null,"topic":null,"acknowledgedQualityOfServices":[],"type":"UNKNOWN"}',
         ];
 
@@ -742,7 +742,7 @@ class MqttClientWriteToSocketTest extends MqttClientTestCase
             'startTimestamp' => 1734352683.3516,
             'endTimestamp'   => 1734352683.3516,
             'executionTime'  => 0.0,
-            'data'           => $string . '3025...',
+            'requestBody'    => $string . '3025...',
             'requestHeaders' => '{"qualityOfService":0,"messageId":null,"topic":null,"acknowledgedQualityOfServices":[],"type":"CONNECT"}',
         ];
 
@@ -846,7 +846,7 @@ class MqttClientWriteToSocketTest extends MqttClientTestCase
             'startTimestamp' => 1734352683.3516,
             'endTimestamp'   => 1734352683.3516,
             'executionTime'  => 0.0,
-            'data'           => $string . '3025e7a4b7d43119',
+            'requestBody'    => $string . '3025e7a4b7d43119',
             'requestHeaders' => '{"qualityOfService":0,"messageId":null,"topic":null,"acknowledgedQualityOfServices":[],"type":"CONNECT"}',
         ];
 
@@ -1356,7 +1356,7 @@ class MqttClientWriteToSocketTest extends MqttClientTestCase
             'startTimestamp' => 1734352683.3516,
             'endTimestamp'   => 1734352683.3516,
             'executionTime'  => 0.0,
-            'data'           => $string . '3025...',
+            'requestBody'    => $string . '3025...',
             'requestHeaders' => '{"qualityOfService":0,"messageId":null,"topic":null,"acknowledgedQualityOfServices":[],"type":"PUBLISH"}',
         ];
 
@@ -1468,7 +1468,7 @@ class MqttClientWriteToSocketTest extends MqttClientTestCase
             'startTimestamp' => 1734352683.3516,
             'endTimestamp'   => 1734352683.3516,
             'executionTime'  => 0.0,
-            'data'           => $string . '3025e7a4b7d43119',
+            'requestBody'    => $string . '3025e7a4b7d43119',
             'requestHeaders' => '{"qualityOfService":0,"messageId":null,"topic":null,"acknowledgedQualityOfServices":[],"type":"PUBLISH"}',
         ];
 
@@ -1575,7 +1575,7 @@ class MqttClientWriteToSocketTest extends MqttClientTestCase
             'startTimestamp' => 1734352683.3516,
             'endTimestamp'   => 1734352683.3516,
             'executionTime'  => 0.0,
-            'data'           => NULL,
+            'requestBody'    => NULL,
             'requestHeaders' => '{"qualityOfService":0,"messageId":null,"topic":null,"acknowledgedQualityOfServices":[],"type":"PUBLISH"}',
         ];
 

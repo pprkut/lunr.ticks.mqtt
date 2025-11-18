@@ -237,7 +237,7 @@ class MqttClient extends BaseMqttClient
 
             if ($this->level->atLeast(AnalyticsDetailLevel::Detailed))
             {
-                $fields['data'] = $this->prepareLogData($message->getContent());
+                $fields['requestBody'] = $this->prepareLogData($message->getContent());
             }
         }
         elseif ((ord($data[0]) >> 4) == 1)
@@ -246,7 +246,7 @@ class MqttClient extends BaseMqttClient
 
             if ($this->level->atLeast(AnalyticsDetailLevel::Detailed))
             {
-                $fields['data'] = $this->prepareLogData(bin2hex($data));
+                $fields['requestBody'] = $this->prepareLogData(bin2hex($data));
             }
         }
         elseif ($data == chr(0xe0) . chr(0x00))
@@ -259,7 +259,7 @@ class MqttClient extends BaseMqttClient
 
             if ($this->level->atLeast(AnalyticsDetailLevel::Detailed))
             {
-                $fields['data'] = $this->prepareLogData(bin2hex($data));
+                $fields['requestBody'] = $this->prepareLogData(bin2hex($data));
             }
         }
 
